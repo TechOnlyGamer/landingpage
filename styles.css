@@ -1,1 +1,167 @@
-.title
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+}
+.header-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.text-container {
+  flex: 1 0 0;
+}
+
+.hero-first {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.hero-second,
+.header-links {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.card-image {
+  padding: 0 48px;
+  flex: 1 2 0;
+  height: 248px;
+  width: 400px;
+}
+
+.sign-up {
+  background-color: blue;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-color: white;
+  width: 128px;
+  color: white;
+}
+
+.main-content {
+  text-align: center;
+  margin-bottom: 128px;
+}
+
+.skill-cards {
+  margin: 24px 0;
+  padding: 0 10%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 32px;
+}
+
+.skill-cards li {
+  width: 128px;
+  height: 128px;
+}
+
+.skill-container {
+  width: 128px;
+  height: 128px;
+  border-color: lightblue;
+  border-radius: 24px;
+  border-style: solid;
+  margin: 16px 0;
+}
+.skill-description {
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.main-zitat {
+  background-color: lightgray;
+  display: flex;
+  height: 128px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 10%;
+}
+
+.zitat {
+  font-size: 24px;
+  color: black;
+  font-style: italic;
+}
+.zitat-autor {
+  text-align: end;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.werbung-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 64px 10%;
+  margin: 32px 48px;
+  background-color: blue;
+  border-radius: 8px;
+}
+
+.werbung-container .sign-up {
+  height: 32px;
+}
+
+.werbung-first,
+.werbung-second {
+  color: white;
+  margin: 8px;
+}
+
+.werbung-first {
+  font-size: 24px;
+}
+.werbung-second {
+  font-size: 16px;
+}
+
+.footer {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1f2937;
+}
+
+.footer-text {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
